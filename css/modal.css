@@ -1,0 +1,30 @@
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 60vh;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  .modal-container.open {
+    display: flex;
+  }
+  
+  .modal-trigger {
+    cursor: pointer;
+  }

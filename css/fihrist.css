@@ -1,0 +1,30 @@
+ /* Birinci seviye başlık: sadece <ul> içinde doğrudan <li><a> olanlar */
+  #listeModal ul > li > a {
+    color: red;
+    font-weight: bold;
+  }
+
+  /* İkinci seviye başlıklar */
+  #listeModal ul > li > ul > li > a {
+    color: blue;
+  }
+  /* Üçüncü seviye başlıklar */
+  #listeModal ul > li > ul > li >ul > li > a {
+    color: black;
+  }
+  /* Diğer stil önerileri */
+  #listeModal ul {
+    margin-left: 1em;
+  }
+
+  #listeModal li {
+    margin: 4px 0;
+  }
+
+  #listeModal a {
+    text-decoration: none;
+  }
+
+  #listeModal a:hover {
+    text-decoration: underline;
+  }
